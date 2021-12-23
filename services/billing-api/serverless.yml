@@ -1,13 +1,5 @@
 service: mono-repo-billing-api
 
-plugins:
-  - serverless-domain-manager
-
-custom:
-  customDomain:
-    domainName: api.seed-frank-playground.download
-    basePath: billing
-
 provider:
   name: aws
   runtime: nodejs14.x
